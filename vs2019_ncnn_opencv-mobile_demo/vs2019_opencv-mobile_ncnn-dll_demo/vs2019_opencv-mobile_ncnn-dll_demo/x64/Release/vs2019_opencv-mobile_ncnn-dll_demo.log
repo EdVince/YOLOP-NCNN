@@ -1,0 +1,53 @@
+﻿  vs2019_opencv-mobile_ncnn-dll_demo.cpp
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\blob.h(32,21): warning C4251: “ncnn::Blob::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Blob”的客户端使用
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(154,21): warning C4251: “ncnn::Layer::type”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(156,21): warning C4251: “ncnn::Layer::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(159,29): warning C4251: “ncnn::Layer::bottoms”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(159): message : 参见“std::vector<int,std::allocator<int>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(161,26): warning C4251: “ncnn::Layer::tops”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(159): message : 参见“std::vector<int,std::allocator<int>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(163,35): warning C4251: “ncnn::Layer::bottom_shapes”: class“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(164,32): warning C4251: “ncnn::Layer::top_shapes”: class“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”需要有 dll 接口由 class“ncnn::Layer”的客户端使用
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\ncnn\build\install\include\ncnn\layer.h(108): message : 参见“std::vector<ncnn::Mat,std::allocator<ncnn::Mat>>”的声明
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(123,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(130,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(130,37): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(231,32): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(232,32): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(507,20): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“unsigned __int64”
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(507,20): message : 请考虑在格式字符串中使用“%zd”
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(527,20): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“unsigned __int64”
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(527,20): message : 请考虑在格式字符串中使用“%zd”
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(547,20): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“unsigned __int64”
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(547,20): message : 请考虑在格式字符串中使用“%zd”
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(567,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(597,61): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(597,54): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(597,47): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo\vs2019_opencv-mobile_ncnn-dll_demo.cpp(597,40): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+  正在生成代码
+  1 of 475 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  vs2019_opencv-mobile_ncnn-dll_demo.vcxproj -> E:\Develop\zeusee\paper\YOLOP\vs2019_ncnn_opencv-mobile_demo\vs2019_opencv-mobile_ncnn-dll_demo\x64\Release\vs2019_opencv-mobile_ncnn-dll_demo.exe
