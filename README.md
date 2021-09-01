@@ -20,4 +20,5 @@ YOLOP：车辆检测+路面分割+车道线分割 三合一的网络，基于YOL
 2. 为了省事，安卓的工程并没有做动态尺寸输入，是直接转成了640×640跑的代码，转成动态尺寸输入的话，能有一定的推理速度上的提升
 3. 目前虽然模型是fp16的，但是这个ncnn的fp16推理我不太会弄，有懂哥可以自己试一下，看下能不能有较为明显的提速
 ### 安卓结果
+我导出了APP，给大家下载玩玩: https://github.com/EdVince/YOLOP-NCNN/blob/main/com.tencent.nanodetncnn-debug.apk
 ![image](https://github.com/EdVince/YOLOP-NCNN/blob/main/res2.jpg)
